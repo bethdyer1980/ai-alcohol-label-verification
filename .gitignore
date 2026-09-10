@@ -1,5 +1,5 @@
-text
 .streamlit/secrets.toml
 *.json
 venv/
 __pycache__/
+
