@@ -1,4 +1,3 @@
-python
 import streamlit as st
 from google.cloud import vision
 import pandas as pd
@@ -34,3 +33,4 @@ except Exception as e:
         f"🔴 **Authentication Error:** Could not connect to Google Cloud Vision API. "
         f"Please verify your `secrets.toml` or Streamlit Cloud Secrets configuration.\n\nDetails: {e}"
     )
+
